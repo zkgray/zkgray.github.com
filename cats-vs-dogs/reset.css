@@ -76,7 +76,7 @@ a {text-decoration:none;
 font-family:helvetica;
 color:gray;
 }
-body {background-color:Cornsilk; 
+body {background-color:snow; 
 }
 
 
@@ -87,7 +87,7 @@ width: 465px;
 height: 300px;
 
 }
-h1 { margin-left:465px;
+h1 { margin-left:600px;
 font-family: georgia;
 font-weight: bold;
 font-size: 1.5em;
@@ -100,18 +100,18 @@ width: 465px;
 height: 300px;
 float: left;
 }
-#dogimg { margin-left:465px;
+#dogimg { margin-left:600px;
 width: 465px;
 height: 300px;
 }
 
 #catimg {
-margin-left:465px;
+margin-left:600px;
 width: 465px;
 height: 300px;
 }
 
-p {margin-left:465px;
+p {margin-left:600px;
 font-family:helvetica;
 font-size:12pt;
 width:465px;
@@ -119,4 +119,4 @@ padding:10px;
 }
 
 footer { margin-top:200px;
-margin-left:465px;}
+margin-left:600px;}
