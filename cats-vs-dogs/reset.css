@@ -80,9 +80,43 @@ body {background-color:Cornsilk;
 }
 
 
-#cats section { padding-bottom:15px;
+#cat {
+padding-bottom: 15px;
+padding-top: 15px;
+width: 465px;
+height: 300px;
+
+}
+h1 { margin-left:465px;
+font-family: georgia;
+font-weight: bold;
+font-size: 1.5em;
+width:400px;
+}
+#dog{ margin:20px;
+padding-bottom: 15px;
+padding-top: 15px;
+width: 465px;
+height: 300px;
+float: left;
+}
+#dogimg { margin-left:465px;
+width: 465px;
+height: 300px;
 }
 
-		
+#catimg {
+margin-left:465px;
+width: 465px;
+height: 300px;
+}
 
-		
+p {margin-left:465px;
+font-family:helvetica;
+font-size:12pt;
+width:465px;
+padding:10px;
+}
+
+footer { margin-top:200px;
+margin-left:465px;}
