@@ -53,4 +53,109 @@ table {
 
 /* END RESET */
 
+body {background-color:whitesmoke;
+}
 
+h1 {margin:40px;
+text-align:center;
+padding-right:120px;
+padding-left:120px;
+padding-top:20px;
+padding-bottom:20px;
+background-color:peachpuff;
+font-family:geneva;
+text-transform:uppercase;
+letter-spacing:.4em;
+font-size:18px;
+color:dimgray;
+}
+
+h2 {font-family:geneva;
+padding-right:40px;
+padding-left:40px;
+padding-bottom:10px;
+float:left;
+color:dimgray;
+letter-spacing:.2em;
+font-size:14px;
+}
+#ingredients ul li {padding-top:10px;
+padding-left:40px;
+font-family:georgia;
+font-size:12px;
+}
+
+#chilioil ul li {padding-top:10px;
+padding-left:40px;
+font-family:georgia;
+font-size:12px;
+}
+
+h3 {font-family:geneva;
+padding-right:40px;
+padding-left:40px;
+padding-bottom:10px;
+float:left;
+color:dimgray;
+letter-spacing:.2em;
+font-size:14px;
+}
+
+#directions ol li {padding-top:10px;
+padding-left:40px;
+font-family:georgia;
+font-size:12px;
+line-height:1.4em;
+display:block;
+width:500px;
+}
+
+p {padding-top:10px;
+padding-left:40px;
+padding-bottom:10px;
+font-family:geneva;
+font-size:12px;
+text-transform:uppercase;
+color:indianred;
+}
+
+#yukgaejang { float:right;
+margin: 20px;
+position:absolute;
+top:80px;
+left:1141px;
+right:20px;
+width:400px;
+height:500px;
+}
+
+#yukgaejang21 {float:right;
+margin: 20px;
+position:absolute;
+top:80px;
+left:870px;
+right:20px;
+width:250px;
+height:150px;
+}
+#yukgaejang12 {float:right;
+margin: 20px;
+position:absolute;
+top:252px;
+left:870px;
+right:20px;
+width:250px;
+height:150px;
+}
+
+#yukgaejang13 {float:right;
+margin: 20px;
+position:absolute;
+top:430px;
+left:870px;
+right:20px;
+width:250px;
+height:150px;
+
+a { margin:20px;
+}
