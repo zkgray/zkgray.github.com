@@ -74,34 +74,20 @@ h2 {font-family:geneva;
 padding-right:40px;
 padding-left:40px;
 padding-bottom:10px;
-float:left;
-color:dimgray;
-letter-spacing:.2em;
-font-size:14px;
-}
-#ingredients ul li {padding-top:10px;
-padding-left:40px;
-font-family:georgia;
-font-size:12px;
-}
-
-#chilioil ul li {padding-top:10px;
-padding-left:40px;
-font-family:georgia;
-font-size:12px;
-}
-
-h3 {font-family:geneva;
-padding-right:40px;
-padding-left:40px;
-padding-bottom:10px;
+padding-top:10px;
 float:left;
 color:dimgray;
 letter-spacing:.2em;
 font-size:14px;
 }
 
-#directions ol li {padding-top:10px;
+ul li {padding-top:10px;
+padding-left:40px;
+font-family:georgia;
+font-size:12px;
+}
+
+p {padding-top:10px;
 padding-left:40px;
 font-family:georgia;
 font-size:12px;
@@ -110,16 +96,7 @@ display:block;
 width:500px;
 }
 
-p {padding-top:10px;
-padding-left:40px;
-padding-bottom:10px;
-font-family:geneva;
-font-size:12px;
-text-transform:uppercase;
-color:indianred;
-}
-
-#yukgaejang { float:right;
+#shavedice1 { float:right;
 margin: 20px;
 position:absolute;
 top:80px;
@@ -129,7 +106,7 @@ width:400px;
 height:500px;
 }
 
-#yukgaejang21 {float:right;
+#shavedice2 {float:right;
 margin: 20px;
 position:absolute;
 top:80px;
@@ -138,7 +115,7 @@ right:20px;
 width:250px;
 height:150px;
 }
-#yukgaejang12 {float:right;
+#shavedice3 {float:right;
 margin: 20px;
 position:absolute;
 top:252px;
@@ -148,7 +125,7 @@ width:250px;
 height:150px;
 }
 
-#yukgaejang13 {float:right;
+#shavedice4 {float:right;
 margin: 20px;
 position:absolute;
 top:430px;
@@ -156,6 +133,3 @@ left:870px;
 right:20px;
 width:250px;
 height:150px;
-
-a { margin:20px;
-}
