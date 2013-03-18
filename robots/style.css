@@ -50,3 +50,35 @@ table {
 	border-spacing: 0;
 }
 
+/* END RESET */
+
+#site-wrapper { background-color:darkseagreen;
+height:130px;
+width: 968px;
+margin-left: auto;
+margin-right: auto;
+height: 150px;
+}
+
+#menu-wrapper { background-color:saddlebrown;
+
+#main-menu { width:900;
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+font-family: helvetica;
+color: white;
+}
+
+#content {
+width: 968px;
+height: 600px;
+background-color:grey;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+
+p { display:block;
+width:200px;
+}
