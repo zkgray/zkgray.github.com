@@ -52,33 +52,57 @@ table {
 
 /* END RESET */
 
-#site-wrapper { background-color:darkseagreen;
-height:130px;
-width: 968px;
-margin-left: auto;
-margin-right: auto;
-height: 150px;
+
+body { width:100%;
+margin:0 auto;
+}
+
+header { position:relative;
+background-color:orange;
+height:200px;
+width:900px;
+margin:auto;
+}
+
+header h1 { position: absolute;
+top:50px;
+bottom:50px;
+background-color:lightblue;
+}
+
+header nav { position:absolute;
+right:0;
+background-color:teal;
 }
 
 #menu-wrapper { background-color:saddlebrown;
-
-#main-menu { width:900;
-float: left;
-padding-left: 15px;
-padding-right: 15px;
-font-family: helvetica;
-color: white;
 }
 
-#content {
-width: 968px;
-height: 600px;
-background-color:grey;
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
+#main-menu { position:relative
+height:50px;
+width:960px;
+background-color:chocolate;
+margin:auto;
 }
 
-p { display:block;
-width:200px;
+#main-menu nav li { position:absolute;
+right:0;
+background-color:teal;
+}
+
+#content-wrapper {
+}
+
+#page { lfoat:left;
+width:60%
+background-color:magenta
+
+}
+
+#content {lfoat:left;
+width:60%
+}
+
+#site-footer { position:relative;
+height:50px;
 }

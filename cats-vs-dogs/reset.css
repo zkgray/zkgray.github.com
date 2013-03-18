@@ -48,6 +48,7 @@ table {
 }
 
 /* END OF RESET - Start of Your CSS*/
+
 #logo {width: 445px;
 height: 95px;
 margin-left: auto;
@@ -76,47 +77,51 @@ a {text-decoration:none;
 font-family:helvetica;
 color:gray;
 }
+
 body {background-color:snow; 
 }
 
-
-#cat {
+#cats article { float:left;
 padding-bottom: 15px;
 padding-top: 15px;
-width: 465px;
+width: 20%px;
 height: 300px;
-
 }
-h1 { margin-left:600px;
+
+h1 { margin-left:10%;
 font-family: georgia;
 font-weight: bold;
 font-size: 1.5em;
 width:400px;
 }
-#dog{ margin:20px;
+
+#dogs section { margin:10%;
 padding-bottom: 15px;
 padding-top: 15px;
-width: 465px;
+width: 40%px;
 height: 300px;
 float: left;
 }
-#dogimg { margin-left:600px;
+
+#dogimg { margin-left:10%;
+width: 465px;
+height: 300px;
+float:left;
+}
+
+#catimg { float:left;
+margin-left:10%;
 width: 465px;
 height: 300px;
 }
 
-#catimg {
-margin-left:600px;
-width: 465px;
-height: 300px;
-}
-
-p {margin-left:600px;
+p {margin-left:10%;
 font-family:helvetica;
 font-size:12pt;
 width:465px;
 padding:10px;
 }
+
 
 footer { margin-top:200px;
 margin-left:600px;}
