@@ -75,12 +75,11 @@ bottom:50px;
 background-color:beige;
 }
 
-#site-header h1 a {
- display:block;  
- height:200px;
- width:1000px; 
- background:url(images/logo.png) no-repeat top left; 
- text-indent:-9999px;
+#site-header h1 a {height: 200px;
+width: 1000px;
+display: block;
+background: url(images/logo.png) no-repeat top left;
+text-indent: -9999px;
  }
 
 header nav { position:absolute;
