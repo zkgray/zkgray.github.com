@@ -55,54 +55,135 @@ table {
 
 body { width:100%;
 margin:0 auto;
+font-family:helvetica;
+display:block;
+}
+
+#site-wrapper {background-color:beige;
 }
 
 header { position:relative;
-background-color:orange;
+background-color:beige;
 height:200px;
-width:900px;
-margin:auto;
+width:960px;
+margin:0 auto;
 }
 
 header h1 { position: absolute;
 top:50px;
 bottom:50px;
-background-color:lightblue;
+background-color:beige;
 }
+
+#site-header h1 a {
+ display:block;  
+ height:200px;
+ width:1000px; 
+ background:url(images/logo.png) no-repeat top left; 
+ text-indent:-9999px;
+ }
 
 header nav { position:absolute;
 right:0;
-background-color:teal;
+background-color:beige;
 }
 
+nav ul li a{
+ 	color: white;
+ 	font-size: 12pt;
+ 	list-style:none;}
+
 #menu-wrapper { background-color:saddlebrown;
+height:60px;
+
 }
 
 #main-menu { position:relative
 height:50px;
 width:960px;
-background-color:chocolate;
-margin:auto;
+background-color:saddlebrown;
+margin:0 auto;
 }
 
-#main-menu nav li { position:absolute;
+
+#main-menu li { position:relative;
 right:0;
-background-color:teal;
+background-color:saddlebrown;
+padding:10px;
+margin:10px;
+float:left;
+list-style:none;
 }
 
 #content-wrapper {
+width: 968px;
+height: 580px;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-top:30px;
 }
 
-#page { lfoat:left;
-width:60%
-background-color:magenta
+#footer-wrapper { clear:both;
+background-color:saddlebrown;
+padding-top:30px;
+height:60px;
+}
+
+#site-footer {
+width: 960px;
+margin-left: auto;
+margin-right: auto
+}
+
+#footer-contact {
+width:175px;
+}
+
+#footer-follow { width:100px;
+float:right;
+}
+
+#page { float:left;
+width:60%;
+background-color:white;
+}
+
+#page h1 { padding-bottom:4px;
+color:saddlebrown;
+font-size:25px;
+text-transform:uppercase;
+font-weight:bold;
+}
+
+#page h2 { padding-top:4px;
+padding-bottom:4px;
+color:saddlebrown;
+font-size:15px;
+text-transform:uppercase;
+font-weight:bold;
+}
+
+#page p { font-size:12px;
+line-height:1.5em;
 
 }
 
-#content {lfoat:left;
-width:60%
+#side-bar { 
+float:left;
+width:30%;
+background-color:white;
 }
 
-#site-footer { position:relative;
-height:50px;
+#sidebar h1 {
+font-size:15px;
+text-transform:uppercase;
+padding-bottom:10px;
+color:saddlebrown;
 }
+
+#sidebar a {float: right;
+width: 300px;
+line-height: 1.2;
+}
+
