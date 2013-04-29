@@ -119,7 +119,7 @@ position:relative;
 }
 
 #main-menu img { 
-padding-left:220px;
+padding-left:200px;
 z-index:1;
 position:absolute;
 }
@@ -131,8 +131,9 @@ margin:0 auto;
 }
 
 
-#main-menu li { position:relative;
-left:340px;
+#main-menu li { 
+position:relative;
+left:300px;
 padding:5px;
 margin:5px;
 float:left;
@@ -149,6 +150,7 @@ margin-right: auto;
 margin-top:30px;
 }
 
-#page { float:center;
-width:60%;
+#page img {
+padding-top: 50px;
+padding-left:215px;
 }
