@@ -132,6 +132,7 @@ margin:0 auto;
 
 
 #main-menu li { 
+z-index:2;
 position:relative;
 left:300px;
 padding:5px;
@@ -153,4 +154,8 @@ margin-top:30px;
 #page img {
 padding-top: 50px;
 padding-left:215px;
+}
+
+#footer-follow img {
+padding-top:30px;
 }
