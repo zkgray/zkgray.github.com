@@ -50,68 +50,134 @@ table {
 /* END OF RESET - Start of Your CSS*/
 
 
-
 body { 
 top:20px;
 width:100%;
 margin:0 auto;
-background-color:silver;
+background-color:#fcfbf9;
 width: 1000px;
 position:relative;
 display:block;
 }
 
-h1 {
-z-index:2;
-position:absolute;
-padding-top:40px;
-font-family:helvetica;
-font-size:2.5em;
-color:white;
-font-weight:ultralight; 
+
+#site-wrapper {
+width:950;
+margin:0 auto;
+position:relative;
+}
+#site-header {
+
 }
 
-#shape_1 {
+header { 
+position:relative;
+background-color:#fcfbf9;
+height:130px;
+width:960px;
+margin:0 auto;
+}
+
+header h1 { position: absolute;
+top:10px;
+}
+
+#top-nav{
+position: absolute;
+top: 70px;
+right: 25px;
+font-size: 11px;
+color: #5d5552;
+text-transform: uppercase;
+}
+
+#site-header h1 a {
+z-index:2;
+height:100px;
+width: 1000px;
+display: block;
+background: url(images/sarahmaloof3.png) no-repeat top ;
+text-indent: -9999px;
+}
+
+#sight-header img {
+z-index:1;
+position:absolute;
+top:20px;
+}
+
+#shape1 {
 z-index:1;
 position:absolute;
 }
 
+#second-nav {
+width:10px;
+margin:0 auto;
+position:relative;
+}
 
-#topnav {
+#collections { position:relative
+height:50px;
+width:10px;
+margin:0 auto;
+}
+
+#second-nav li a {
+z-index:2;
+position:absolute;
+left:300px;
+padding:5px;
+margin:5px;
+float:clear;
+list-style:none;
+
+} 
+
+#menu-wrapper {
+width:950;
+margin:0 auto;
+position:relative;
+
+}
+
+#main-menu img { 
+padding-left:200px;
+z-index:1;
+position:absolute;
+}
+
+#main-menu { position:relative
+height:50px;
+width:960px;
+margin:0 auto;
+}
+
+
+#main-menu li { 
+z-index:2;
+position:relative;
+left:300px;
+padding:5px;
+margin:5px;
 float:left;
-font-family:helvetica;
-position:absolute;
-right:0;
-background-color:silver;
+list-style:none;
 }
 
-div ul li a{
- 	color: white;
- 	font-size: 12pt;
- 	list-style:none;}
+#content-wrapper {
 
-#collections { 
-line-height:40px;
-font-family:helvetica;
-position:absolute;
-left:0;
-top:200px;
-text-decoration:none;
+width: 968px;
+height: 580px;
+margin-left: auto;
+margin-right: auto;
+margin-top:30px;
 }
 
-nav ul li a{
- 	color: white;
- 	font-size: 12pt;
- 	list-style:none;
+#page img {
+padding-top: 50px;
+padding-left:215px;
 }
-	
 
-p { 
-line-height: 1.2em;
-display: block;
-width:400px;
-font-family:georgia;
-position:absolute;
-left:200px;
-top: 200px;
+#footer-follow img {
+padding-top:30px;
 }
