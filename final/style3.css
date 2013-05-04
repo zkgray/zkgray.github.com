@@ -138,7 +138,7 @@ left:300px;
 padding:5px;
 margin:5px;
 float:left;
-list-style:none;
+text-decoration:none;
 }
 
 #content-wrapper {
@@ -151,9 +151,22 @@ margin-right: auto;
 margin-top:30px;
 }
 
-#page img {
+#aboutme {
 padding-top: 50px;
-padding-left:20px;
+padding-left:250px;
+}
+
+#about_me {
+position: absolute;
+top:205px;
+padding:20px;
+}
+
+#page li a {
+z-index:3;
+float:clear;
+padding:20px;
+
 }
 
 #footer-follow img {
