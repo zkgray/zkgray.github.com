@@ -80,7 +80,7 @@ color:gray;
 
 body {background-color:snow;
 	margin: 0 auto;
-	width: 960px; 
+	width: 100%; 
 }
 
 #cats article { float:left;
@@ -135,4 +135,20 @@ float:left;
 
 footer { margin-top:250px;
 float:left;
+}
+
+@media screen and (max-width:600px) {
+    #dogs { float:left; width:98%; margin-left:4%; }
+    #cats { float:right; width:98%; margin-left:4%; }
+  body { font-size:0.7em; }
+   p { font-size:1.em; }
+	nav li ul { font-size:0.5em;
+}
+
+@media screen and (max-width:400px) {
+    #dogs { float:left; width:98%; margin-left:1%; }
+    #cats { float:right; width:98%; margin-left:1%; }
+  body { font-size:0.5em; }
+   p { font-size:1.8em; }
+	nav li ul { font-size:0.5em;
 }
